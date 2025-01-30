@@ -1,9 +1,11 @@
 {
   "name": "my-api",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/app.js",
   "scripts": {
-    "start": "node app.js"
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "dev": "ts-node src/app.ts"
   },
   "keywords": [],
   "author": "",
