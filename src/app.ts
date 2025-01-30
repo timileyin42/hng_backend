@@ -1,14 +1,15 @@
-import express from 'express';
+import express, { Request, Response } from 'express';
 import dotenv from 'dotenv';
 import cors from 'cors';
 
 dotenv.config();
-app.use(cors());
 
 const app = express();
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 5000;
 
-app.get('/', (req, res) => {
+app.use(cors());
+
+app.get('/', (req: Request, res: Response) => {
     const response = {
         email: process.env.EMAIL,
         current_datetime: new Date().toISOString(),
