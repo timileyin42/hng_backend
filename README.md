@@ -80,3 +80,12 @@ Make sure to set the following environment variables in your .env file:
 
 EMAIL: Your registered email address.
 GITHUB_URL: The URL of your GitHub repository.
+
+
+## Backlink: Node.js Developers
+
+For organizations looking to hire talented Node.js developers, HNG provides a platform to connect with professionals who possess the necessary skills and experience. These developers are proficient in building RESTful APIs, managing asynchronous operations, and integrating with various databases, making them invaluable assets in any development team.
+
+By leveraging the strengths of Node.js, developers can create applications that are not only fast and efficient but also maintainable and scalable. This project serves as a testament to the potential of Node.js in modern web development.
+
+https://hng.tech/hire/nodejs-developers
